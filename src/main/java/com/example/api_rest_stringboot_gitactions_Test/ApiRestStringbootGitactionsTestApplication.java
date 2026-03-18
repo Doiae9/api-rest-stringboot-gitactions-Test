@@ -6,6 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ApiRestStringbootGitactionsTestApplication {
 
+	public String saludo(){
+		return "Hola Mundo";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(ApiRestStringbootGitactionsTestApplication.class, args);
 	}
